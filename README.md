@@ -18,10 +18,9 @@ Uma plataforma de biblioteca digital onde usuários podem pesquisar livros, real
 
 ## 🎨 Design & Protótipo
 
-O design da interface e o fluxo do usuário foram desenvolvidos utilizando o **Figma**. Você pode visualizar o projeto detalhado e interagir com o protótipo funcional através dos links abaixo:
+O design da interface e o fluxo do usuário foram desenvolvidos utilizando o **Figma**. Você pode visualizar o projeto detalhado e interagir com o protótipo funcional através do link abaixo:
 
-* **Arquivo do Design:** [Acesse aqui o projeto no Figma](COLE_O_LINK_DO_ARQUIVO_AQUI)
-* **Protótipo Interativo:** [Clique aqui para testar o fluxo](COLE_O_LINK_DO_PROTOTIPO_AQUI)
+* **Protótipo:** [Acesse aqui o projeto no Figma](https://www.figma.com/design/SG3evwxkT30cVLSaqGVguJ/Untitled?node-id=0-1&t=4sjZqjb2dsI3RoVX-1)
 
 <p align="center">
   <img src="URL_DA_SUA_SCREENSHOT_OU_GIF" alt="Preview do Protótipo" width="800px">
@@ -55,29 +54,33 @@ O desenvolvimento foi dividido em **3 Sprints**, seguindo uma abordagem incremen
 ### 📅 Sprint 1 — Estrutura Inicial & Interface
 | ID | User Story | Prioridade | Tarefa Técnica |
 | :--- | :--- | :--- | :--- |
-| US01 | Visualizar tela de cadastro | Alta | Criar página HTML de cadastro |
-| US02 | Visualizar tela de login | Alta | Criar página HTML de login |
-| US03 | Visualizar lista de livros | Alta | Criar mock JSON e renderizar no DOM |
-| US04 | Ver detalhes de um livro | Alta | Criar modal de detalhes |
+| US01 | Como usuário, quero visualizar a tela de cadastro para criar uma conta | Alta | Criar página HTML de cadastro |
+| US02 | Como usuário, quero visualizar a tela de login para acessar o sistema | Alta | Criar página HTML de login |
+| US03 | Como usuário, quero visualizar uma lista de livros para explorar opções | Alta | Criar mock JSON e renderizar no DOM |
+| US04 | Como usuário, quero ver detalhes de um livro para obter mais informações | Alta | Criar modal de detalhes |
 
 ### 📅 Sprint 2 — Funcionalidades Front-end (JS)
 | ID | User Story | Prioridade | Tarefa Técnica |
 | :--- | :--- | :--- | :--- |
-| US05 | Pesquisar livros por nome | Alta | Implementar filtro JS (`filter`) |
-| US06 | Emprestar um livro | Alta | Lógica de array e atualização de estado |
-| US07 | Meus livros emprestados | Média | Renderizar lista dinâmica de empréstimos |
-| US08 | Devolver um livro | Média | Remover item do array e atualizar UI |
+| US05 | Como usuário, quero pesquisar livros pelo nome para encontrá-los rapidamente | Alta | Implementar filtro JS (`filter`) |
+| US06 | Como usuário, quero emprestar um livro para adicioná-lo à minha lista | Alta | Lógica de array e atualização de estado |
+| US07 | Como usuário, quero visualizar meus livros emprestados para me organizar | Média | Renderizar lista dinâmica de empréstimos |
+| US08 | Como usuário, quero devolver um livro para removê-lo da minha lista | Média | Remover item do array e atualizar UI |
 
 ### 📅 Sprint 3 — Integração Front + Back
 | ID | User Story | Prioridade | Tarefa Técnica |
 | :--- | :--- | :--- | :--- |
-| US09 | Criar conta no sistema | Alta | Criar API `POST /users` |
-| US10 | Fazer login | Alta | Implementar JWT/Autenticação |
-| US11 | Salvar empréstimos | Alta | Criar API `POST /loans` |
-| US12 | Ver histórico | Média | Criar API `GET /loans` |
+| US09 | Como usuário, quero criar uma conta para acessar o sistema | Alta | Criar API `POST /users` |
+| US10 | Como usuário, quero fazer login para acessar minha conta | Alta | Implementar JWT/Autenticação |
+| US11 | Como usuário, quero salvar meus empréstimos para manter um histórico | Alta | Criar API `POST /loans` |
+| US12 | Como usuário, quero visualizar meu histórico de empréstimos para acompanhar minhas leituras | Média | Criar API `GET /loans` |
+| US13 | Como usuário, quero avaliar livros com estrelas para compartilhar minha opinião | Média | Criar sistema de avaliação (1 a 5 estrelas) com `POST /reviews` |
+| US14 | Como usuário, quero visualizar avaliações de livros para decidir qual ler | Média | Criar API `GET /reviews` |
+
+---
 
 ---
 
 ## 📌 Status do Projeto
 
-🚧 **Em desenvolvimento** - Atualmente finalizando a Sprint 2.
+🚧 **Em desenvolvimento**
