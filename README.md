@@ -22,10 +22,6 @@ O design da interface e o fluxo do usuário foram desenvolvidos utilizando o **F
 
 * **Protótipo:** [Acesse aqui o projeto no Figma](https://www.figma.com/design/SG3evwxkT30cVLSaqGVguJ/Untitled?node-id=0-1&t=4sjZqjb2dsI3RoVX-1)
 
-<p align="center">
-  <img src="URL_DA_SUA_SCREENSHOT_OU_GIF" alt="Preview do Protótipo" width="800px">
-</p>
-
 ---
 
 ## 💡 Funcionalidades Principais
