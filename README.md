@@ -164,7 +164,7 @@ Para validar o funcionamento da API REST da Biblioteca Digital, foram realizados
 
 Responsável por retornar todos os livros cadastrados no banco de dados.
 
-![GET - Thunder Client](./GET%20-%20Thunder%20Client.png)
+![GET - Thunder Client](./GET%20-%20Thunder%20Client.jpeg)
 
 ---
 
@@ -172,7 +172,7 @@ Responsável por retornar todos os livros cadastrados no banco de dados.
 
 Responsável por adicionar um novo livro ao sistema.
 
-![POST - Thunder Client](./POST%20-%20Thunder%20Client.png)
+![POST - Thunder Client](./POST%20-%20Thunder%20Client.jpeg)
 
 ---
 
@@ -180,7 +180,7 @@ Responsável por adicionar um novo livro ao sistema.
 
 Responsável por atualizar informações de um livro existente, como seu status.
 
-![PUT - Thunder Client](./PUT%20-%20Thunder%20Client.png)
+![PUT - Thunder Client](./PUT%20-%20Thunder%20Client.jpeg)
 
 ---
 
@@ -188,7 +188,7 @@ Responsável por atualizar informações de um livro existente, como seu status.
 
 Responsável por remover um livro do sistema.
 
-![DELETE - Thunder Client](./DELETE%20-%20Thunder%20Client.png)
+![DELETE - Thunder Client](./DELETE%20-%20Thunder%20Client.jpeg)
 
 ---
 
